@@ -1,0 +1,42 @@
+summary: Crypto wallet balances
+description: ''
+value:
+  modules:
+    - id: a
+      summary: ''
+      value:
+        type: branchall
+        branches:
+          - modules:
+              - id: c
+                value:
+                  type: script
+                  input_transforms: {}
+                  path: f/crypto/_trezor___btc__obtain_and_save_balance
+            expr: ''
+            parallel: true
+            skip_failure: false
+          - summary: ''
+            modules:
+              - id: b
+                value:
+                  type: script
+                  input_transforms: {}
+                  path: f/crypto/_trezor___eth__obtain_and_save_balance
+            expr: 'false'
+            parallel: true
+            skip_failure: false
+        parallel: true
+    - id: d
+      value:
+        type: script
+        input_transforms: {}
+        path: f/crypto/calculate_total_crypto_balance
+schema:
+  $schema: 'https://json-schema.org/draft/2020-12/schema'
+  type: object
+  order: []
+  properties: {}
+  required: []
+visible_to_runner_only: false
+ws_error_handler_muted: false

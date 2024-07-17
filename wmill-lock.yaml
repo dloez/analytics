@@ -1,0 +1,4 @@
+locks:
+  f/crypto/_trezor___btc__obtain_and_save_balance: a3f325bca241dc9863b110e3e285249f86e6feea83e9242dffab43780fe86beb
+  f/crypto/_trezor___eth__obtain_and_save_balance: 65ae406492e5ff8cd5e060e834dc1588b8fc67ecc9908f5e3c77cb095dde7e54
+  f/crypto/calculate_total_crypto_balance: 29f34355c4557ac55cd1fad51209cb05a4ef33dbc588ec4d64ec6a04ef46315a

@@ -1,0 +1,11 @@
+summary: '[Trezor - BTC] Obtain and save balance'
+description: ''
+lock: '!inline f/crypto/_trezor___btc__obtain_and_save_balance.script.lock'
+concurrency_time_window_s: 0
+kind: script
+schema:
+  $schema: 'https://json-schema.org/draft/2020-12/schema'
+  type: object
+  order: []
+  properties: {}
+  required: []
