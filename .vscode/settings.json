@@ -67,5 +67,5 @@
       "source.organizeImports": "explicit"
     }
   },
-  "windmill.currentWorkspace": "analytics"
+  "windmill.workspaceId": "analytics"
 }
